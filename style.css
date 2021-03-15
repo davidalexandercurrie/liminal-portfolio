@@ -1,0 +1,58 @@
+html,
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 42, 66, 0.85)), to(rgba(18, 42, 66, 0.85))), url("background.png");
+  background-image: linear-gradient(to bottom, rgba(18, 42, 66, 0.85), rgba(18, 42, 66, 0.85)), url("background.png");
+  padding: 0;
+  margin: 0;
+}
+
+.works {
+  position: relative;
+  background-color: white;
+  border: 10px solid lightpink;
+  border-radius: 50%;
+  -webkit-box-shadow: 100px 80px 100px -100px darkslateblue, 120px 55px 100px -100px darkblue, 140px 30px 100px -100px darkmagenta, inset 100px 100px 240px whitesmoke, inset 20px 0 80px #f0f;
+          box-shadow: 100px 80px 100px -100px darkslateblue, 120px 55px 100px -100px darkblue, 140px 30px 100px -100px darkmagenta, inset 100px 100px 240px whitesmoke, inset 20px 0 80px #f0f;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  padding: 0;
+  margin: 250px;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  text-align: center;
+  font-size: 2em;
+}
+
+.works:hover {
+  z-index: 555555 !important;
+}
+
+#container {
+  position: relative;
+  white-space: nowrap;
+  left: 2000px;
+}
+
+iframe {
+  padding: 0;
+  margin: 0;
+}
+
+#hidden {
+  position: fixed;
+  visibility: hidden;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(18, 42, 66, 0.25);
+  pointer-events: none;
+  z-index: 10;
+}
+/*# sourceMappingURL=style.css.map */
